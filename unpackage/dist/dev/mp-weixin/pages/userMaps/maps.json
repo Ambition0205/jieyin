@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "用水",
+  "usingComponents": {
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-circle-progress": "/uview-ui/components/u-circle-progress/u-circle-progress",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

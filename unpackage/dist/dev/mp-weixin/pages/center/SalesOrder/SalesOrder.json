@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "销售订单",
+  "usingComponents": {
+    "u-empty": "/uview-ui/components/u-empty/u-empty"
+  }
+}

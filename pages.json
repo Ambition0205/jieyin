@@ -1,0 +1,132 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "用水"
+		// 	}
+		// 	// "style": {
+		// 	// 	"navigationStyle": "custom" ,// 隐藏系统导航栏
+		// 	// 	"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+		// 	// }
+		// },
+		{
+			"path": "pages/userMaps/maps",
+			"style": {
+				"navigationBarTitleText": "用水"
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "钱包"
+			}
+		},
+		{
+			"path": "pages/wallet/balance/balance",
+			"style": {
+				"navigationBarTitleText": "余额"
+			}
+		},
+		{
+			"path": "pages/wallet/account/account",
+			"style": {
+				"navigationBarTitleText": "账单"
+			}
+		},
+		{
+			"path": "pages/wallet/application/application",
+			"style": {
+				"navigationBarTitleText": "提现申请"
+			}
+		},
+		{
+			"path": "pages/wallet/bankCard/bankCard",
+			"style": {
+				"navigationBarTitleText": "银行卡"
+			}
+		},
+		{
+			"path": "pages/center/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/center/SalesOrder/SalesOrder",
+			"style": {
+				"navigationBarTitleText": "销售订单"
+			}
+		},
+		{
+			"path": "pages/center/retrievePas/retrievePas",
+			"style": {
+				"navigationBarTitleText": "找回账户密码"
+			}
+		},
+		{
+			"path": "pages/center/summaryReport/summaryReport",
+			"style": {
+				"navigationBarTitleText": "汇总报表"
+			}
+		},
+		{
+			"path": "pages/center/dailySummary/dailySummary",
+			"style": {
+				"navigationBarTitleText": "每日汇总"
+			}
+		},
+		{
+			"path": "pages/center/service/service",
+			"style": {
+				"navigationBarTitleText": "售后服务"
+			}
+		}
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#E5A779",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+			// {
+	  //       "pagePath": "pages/index/index",
+	  //       "iconPath": "static/index.png",
+	  //       "selectedIconPath": "static/index-selected.png",
+	  //       "text": "用水"
+	  //   },
+		{
+		    "pagePath": "pages/userMaps/maps",
+		    "iconPath": "static/index.png",
+		    "selectedIconPath": "static/index-selected.png",
+		    "text": "用水"
+		},{
+		    "pagePath": "pages/wallet/wallet",
+		    "iconPath": "static/qianbao.png",
+		    "selectedIconPath": "static/qianbao1.png",
+		    "text": "钱包"
+		}, {
+	        "pagePath": "pages/center/index",
+	        "iconPath": "static/center.png",
+	        "selectedIconPath": "static/center-selected.png",
+	        "text": "我的"
+	    }]
+	}
+}

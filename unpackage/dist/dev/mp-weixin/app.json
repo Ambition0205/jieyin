@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/userMaps/maps",
+    "pages/center/index",
+    "pages/wallet/wallet",
+    "pages/wallet/balance/balance",
+    "pages/wallet/account/account",
+    "pages/wallet/application/application",
+    "pages/wallet/bankCard/bankCard",
+    "pages/center/order/order",
+    "pages/center/SalesOrder/SalesOrder",
+    "pages/center/retrievePas/retrievePas",
+    "pages/center/summaryReport/summaryReport",
+    "pages/center/dailySummary/dailySummary",
+    "pages/center/service/service"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#E5A779",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/userMaps/maps",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index-selected.png",
+        "text": "用水"
+      },
+      {
+        "pagePath": "pages/wallet/wallet",
+        "iconPath": "static/qianbao.png",
+        "selectedIconPath": "static/qianbao1.png",
+        "text": "钱包"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/center.png",
+        "selectedIconPath": "static/center-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "直接在当前位置查看是否有机器取水"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap59.json"
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "找回账户密码",
+  "usingComponents": {
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-field": "/uview-ui/components/u-field/u-field"
+  }
+}
